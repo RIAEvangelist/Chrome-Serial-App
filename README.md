@@ -1,4 +1,4 @@
-Chrome-Serial-App
+Chrome Serial Terminal App
 =================
 
 Chrome App for connecting to serial devices and serial USB.  
