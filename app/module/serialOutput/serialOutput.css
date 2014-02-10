@@ -1,0 +1,41 @@
+.serialOutput{
+    position:fixed;
+    width:calc(100% - 200px);
+    overflow:auto;
+    height: calc(100% - 58px);
+    top:29px;
+    left:200px;
+    background:rgb(10,10,10);
+    color:rgb(240,240,240);
+    overflow:auto;
+    font-family:telegramarender;
+    font-size:12px;
+    line-height:15px;
+}
+
+.serialOutput ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.serialOutput ul>li{
+    padding:0 5px;
+    cursor:pointer;
+}
+
+.serialOutput ul>li:hover{
+    background:rgb(40,40,40);
+}
+
+.serialOutput .warn{
+    color:red;
+}
+
+.serialOutput .notice{
+    color:yellow;
+}
+
+.serialOutput .success{
+    color:green;
+}
